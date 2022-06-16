@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="700.0" style="-fx-background-color: #2E5234;" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.project_with_gui.Controller_menu">
+    <children>
+      <ImageView fitHeight="483.0" fitWidth="739.0" layoutX="-25.0" layoutY="-33.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@1.jpg" />
+         </image>
+      </ImageView>
+        <Label layoutX="199.0" layoutY="78.0" prefHeight="130.0" prefWidth="302.0" text="Życie mrówki" textFill="WHITE">
+            <font>
+                <Font name="Century Gothic Bold" size="46.0" />
+            </font>
+        </Label>
+        <Button fx:id="Startmenu" layoutX="294.0" layoutY="200.0" mnemonicParsing="false" style="-fx-background-color: #7fa147;" text="Start" textFill="WHITE">
+            <font>
+                <Font name="Century Gothic Bold" size="25.0" />
+            </font>
+        </Button>
+        <ImageView fitHeight="339.0" fitWidth="500.0" layoutX="381.0" layoutY="200.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@3.png" />
+            </image>
+        </ImageView>
+        <ImageView fitHeight="338.0" fitWidth="449.0" layoutX="-122.0" layoutY="143.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@2.png" />
+            </image>
+        </ImageView>
+    </children>
+</AnchorPane>

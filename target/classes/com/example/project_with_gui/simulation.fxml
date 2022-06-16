@@ -1,0 +1,527 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="BAZA" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="700.0" style="-fx-background-color: #2E5234;" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.project_with_gui.Controller_simulation">
+    <children>
+        <ImageView fitHeight="469.0" fitWidth="723.0" layoutX="-2.0" layoutY="-50.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@0.jpg" />
+            </image>
+        </ImageView>
+        <Button fx:id="Nowyraz" layoutX="252.0" layoutY="361.0" mnemonicParsing="false" prefHeight="23.0" prefWidth="67.0" style="-fx-background-color: #7fa147; -fx-border-color: #ffffff;" text="Start" textFill="WHITE">
+         <font>
+            <Font name="Century Gothic Bold" size="12.0" />
+         </font></Button>
+        <Label alignment="CENTER" layoutX="190.0" layoutY="26.0" prefHeight="32.0" prefWidth="32.0" style="-fx-background-color: F7FFE2;" textAlignment="CENTER" textFill="#141e0f" fx:id="x0y9">
+            <font>
+                <Font size="22.0" />
+            </font>
+        </Label>
+        <Label alignment="CENTER" layoutX="190.0" layoutY="58.0" prefHeight="32.0" prefWidth="32.0" style="-fx-background-color: F7FFE2;" textAlignment="CENTER" textFill="#141e0f" fx:id="x0y8">
+            <font>
+                <Font size="22.0" />
+            </font>
+        </Label>
+        <Label alignment="CENTER" layoutX="190.0" layoutY="90.0" prefHeight="32.0" prefWidth="32.0" style="-fx-background-color: F7FFE2;" textAlignment="CENTER" textFill="#141e0f" fx:id="x0y7">
+            <font>
+                <Font size="22.0" />
+            </font>
+        </Label>
+        <Label alignment="CENTER" layoutX="190.0" layoutY="122.0" prefHeight="32.0" prefWidth="32.0" style="-fx-background-color: F7FFE2;" textAlignment="CENTER" textFill="#141e0f" fx:id="x0y6">
+            <font>
+                <Font size="22.0" />
+            </font>
+        </Label>
+        <Label alignment="CENTER" layoutX="190.0" layoutY="154.0" prefHeight="32.0" prefWidth="32.0" style="-fx-background-color: F7FFE2;" textAlignment="CENTER" textFill="#141e0f" fx:id="x0y5">
+            <font>
+                <Font size="22.0" />
+            </font>
+        </Label>
+        <Label alignment="CENTER" layoutX="190.0" layoutY="186.0" prefHeight="32.0" prefWidth="32.0" style="-fx-background-color: F7FFE2;" textAlignment="CENTER" textFill="#141e0f" fx:id="x0y4">
+            <font>
+                <Font size="22.0" />
+            </font>
+        </Label>
+        <Label alignment="CENTER" layoutX="190.0" layoutY="218.0" prefHeight="32.0" prefWidth="32.0" style="-fx-background-color: F7FFE2;" textAlignment="CENTER" textFill="#141e0f" fx:id="x0y3">
+            <font>
+                <Font size="22.0" />
+            </font>
+        </Label>
+        <Label alignment="CENTER" layoutX="190.0" layoutY="250.0" prefHeight="32.0" prefWidth="32.0" style="-fx-background-color: F7FFE2;" textAlignment="CENTER" textFill="#141e0f" fx:id="x0y2">
+            <font>
+                <Font size="22.0" />
+            </font>
+        </Label>
+        <Label alignment="CENTER" layoutX="190.0" layoutY="282.0" prefHeight="32.0" prefWidth="32.0" style="-fx-background-color: F7FFE2;" textAlignment="CENTER" textFill="#141e0f" fx:id="x0y1">
+            <font>
+                <Font size="22.0" />
+            </font>
+        </Label>
+        <Label alignment="CENTER" layoutX="222.0" layoutY="26.0" prefHeight="32.0" prefWidth="32.0" style="-fx-background-color: F7FFE2;" textAlignment="CENTER" textFill="#141e0f" fx:id="x1y9">
+            <font>
+                <Font size="22.0" />
+            </font>
+        </Label>
+        <Label alignment="CENTER" layoutX="222.0" layoutY="58.0" prefHeight="32.0" prefWidth="32.0" style="-fx-background-color: F7FFE2;" textAlignment="CENTER" textFill="#141e0f" fx:id="x1y8">
+            <font>
+                <Font size="22.0" />
+            </font>
+        </Label>
+        <Label alignment="CENTER" layoutX="222.0" layoutY="90.0" prefHeight="32.0" prefWidth="32.0" style="-fx-background-color: F7FFE2;" textAlignment="CENTER" textFill="#141e0f" fx:id="x1y7">
+            <font>
+                <Font size="22.0" />
+            </font>
+        </Label>
+        <Label alignment="CENTER" layoutX="222.0" layoutY="122.0" prefHeight="32.0" prefWidth="32.0" style="-fx-background-color: F7FFE2;" textAlignment="CENTER" textFill="#141e0f" fx:id="x1y6">
+            <font>
+                <Font size="22.0" />
+            </font>
+        </Label>
+        <Label alignment="CENTER" layoutX="222.0" layoutY="154.0" prefHeight="32.0" prefWidth="32.0" style="-fx-background-color: F7FFE2;" textAlignment="CENTER" textFill="#141e0f" fx:id="x1y5">
+            <font>
+                <Font size="22.0" />
+            </font>
+        </Label>
+        <Label alignment="CENTER" layoutX="222.0" layoutY="186.0" prefHeight="32.0" prefWidth="32.0" style="-fx-background-color: F7FFE2;" textAlignment="CENTER" textFill="#141e0f" fx:id="x1y4">
+            <font>
+                <Font size="22.0" />
+            </font>
+        </Label>
+        <Label alignment="CENTER" layoutX="222.0" layoutY="218.0" prefHeight="32.0" prefWidth="32.0" style="-fx-background-color: F7FFE2;" textAlignment="CENTER" textFill="#141e0f" fx:id="x1y3">
+            <font>
+                <Font size="22.0" />
+            </font>
+        </Label>
+        <Label alignment="CENTER" layoutX="222.0" layoutY="250.0" prefHeight="32.0" prefWidth="32.0" style="-fx-background-color: F7FFE2;" textAlignment="CENTER" textFill="#141e0f" fx:id="x1y2">
+            <font>
+                <Font size="22.0" />
+            </font>
+        </Label>
+        <Label alignment="CENTER" layoutX="222.0" layoutY="282.0" prefHeight="32.0" prefWidth="32.0" style="-fx-background-color: F7FFE2;" textAlignment="CENTER" textFill="#141e0f" fx:id="x1y1">
+            <font>
+                <Font size="22.0" />
+            </font>
+        </Label>
+        <Label alignment="CENTER" layoutX="254.0" layoutY="26.0" prefHeight="32.0" prefWidth="32.0" style="-fx-background-color: F7FFE2;" textAlignment="CENTER" textFill="#141e0f" fx:id="x2y9">
+            <font>
+                <Font size="22.0" />
+            </font>
+        </Label>
+        <Label alignment="CENTER" layoutX="254.0" layoutY="58.0" prefHeight="32.0" prefWidth="32.0" style="-fx-background-color: F7FFE2;" textAlignment="CENTER" textFill="#141e0f" fx:id="x2y8">
+            <font>
+                <Font size="22.0" />
+            </font>
+        </Label>
+        <Label alignment="CENTER" layoutX="254.0" layoutY="90.0" prefHeight="32.0" prefWidth="32.0" style="-fx-background-color: F7FFE2;" textAlignment="CENTER" textFill="#141e0f" fx:id="x2y7">
+            <font>
+                <Font size="22.0" />
+            </font>
+        </Label>
+        <Label alignment="CENTER" layoutX="254.0" layoutY="122.0" prefHeight="32.0" prefWidth="32.0" style="-fx-background-color: F7FFE2;" textAlignment="CENTER" textFill="#141e0f" fx:id="x2y6">
+            <font>
+                <Font size="22.0" />
+            </font>
+        </Label>
+        <Label alignment="CENTER" layoutX="254.0" layoutY="154.0" prefHeight="32.0" prefWidth="32.0" style="-fx-background-color: F7FFE2;" textAlignment="CENTER" textFill="#141e0f" fx:id="x2y5">
+            <font>
+                <Font size="22.0" />
+            </font>
+        </Label>
+        <Label alignment="CENTER" layoutX="254.0" layoutY="186.0" prefHeight="32.0" prefWidth="32.0" style="-fx-background-color: F7FFE2;" textAlignment="CENTER" textFill="#141e0f" fx:id="x2y4">
+            <font>
+                <Font size="22.0" />
+            </font>
+        </Label>
+        <Label alignment="CENTER" layoutX="254.0" layoutY="218.0" prefHeight="32.0" prefWidth="32.0" style="-fx-background-color: F7FFE2;" textAlignment="CENTER" textFill="#141e0f" fx:id="x2y3">
+            <font>
+                <Font size="22.0" />
+            </font>
+        </Label>
+        <Label alignment="CENTER" layoutX="254.0" layoutY="250.0" prefHeight="32.0" prefWidth="32.0" style="-fx-background-color: F7FFE2;" textAlignment="CENTER" textFill="#141e0f" fx:id="x2y2">
+            <font>
+                <Font size="22.0" />
+            </font>
+        </Label>
+        <Label alignment="CENTER" layoutX="254.0" layoutY="282.0" prefHeight="32.0" prefWidth="32.0" style="-fx-background-color: F7FFE2;" textAlignment="CENTER" textFill="#141e0f" fx:id="x2y1">
+            <font>
+                <Font size="22.0" />
+            </font>
+        </Label>
+        <Label alignment="CENTER" layoutX="286.0" layoutY="26.0" prefHeight="32.0" prefWidth="32.0" style="-fx-background-color: F7FFE2;" textAlignment="CENTER" textFill="#141e0f" fx:id="x3y9">
+            <font>
+                <Font size="22.0" />
+            </font>
+        </Label>
+        <Label alignment="CENTER" layoutX="286.0" layoutY="58.0" prefHeight="32.0" prefWidth="32.0" style="-fx-background-color: F7FFE2;" textAlignment="CENTER" textFill="#141e0f" fx:id="x3y8">
+            <font>
+                <Font size="22.0" />
+            </font>
+        </Label>
+        <Label alignment="CENTER" layoutX="286.0" layoutY="90.0" prefHeight="32.0" prefWidth="32.0" style="-fx-background-color: F7FFE2;" textAlignment="CENTER" textFill="#141e0f" fx:id="x3y7">
+            <font>
+                <Font size="22.0" />
+            </font>
+        </Label>
+        <Label alignment="CENTER" layoutX="286.0" layoutY="122.0" prefHeight="32.0" prefWidth="32.0" style="-fx-background-color: F7FFE2;" textAlignment="CENTER" textFill="#141e0f" fx:id="x3y6">
+            <font>
+                <Font size="22.0" />
+            </font>
+        </Label>
+        <Label alignment="CENTER" layoutX="286.0" layoutY="154.0" prefHeight="32.0" prefWidth="32.0" style="-fx-background-color: F7FFE2;" textAlignment="CENTER" textFill="#141e0f" fx:id="x3y5">
+            <font>
+                <Font size="22.0" />
+            </font>
+        </Label>
+        <Label alignment="CENTER" layoutX="286.0" layoutY="186.0" prefHeight="32.0" prefWidth="32.0" style="-fx-background-color: F7FFE2;" textAlignment="CENTER" textFill="#141e0f" fx:id="x3y4">
+            <font>
+                <Font size="22.0" />
+            </font>
+        </Label>
+        <Label alignment="CENTER" layoutX="286.0" layoutY="218.0" prefHeight="32.0" prefWidth="32.0" style="-fx-background-color: F7FFE2;" textAlignment="CENTER" textFill="#141e0f" fx:id="x3y3">
+            <font>
+                <Font size="22.0" />
+            </font>
+        </Label>
+        <Label alignment="CENTER" layoutX="286.0" layoutY="250.0" prefHeight="32.0" prefWidth="32.0" style="-fx-background-color: F7FFE2;" textAlignment="CENTER" textFill="#141e0f" fx:id="x3y2">
+            <font>
+                <Font size="22.0" />
+            </font>
+        </Label>
+        <Label alignment="CENTER" layoutX="286.0" layoutY="282.0" prefHeight="32.0" prefWidth="32.0" style="-fx-background-color: F7FFE2;" textAlignment="CENTER" textFill="#141e0f" fx:id="x3y1">
+            <font>
+                <Font size="22.0" />
+            </font>
+        </Label>
+        <Label alignment="CENTER" layoutX="318.0" layoutY="26.0" prefHeight="32.0" prefWidth="32.0" style="-fx-background-color: F7FFE2;" textAlignment="CENTER" textFill="#141e0f" fx:id="x4y9">
+            <font>
+                <Font size="22.0" />
+            </font>
+        </Label>
+        <Label alignment="CENTER" layoutX="318.0" layoutY="58.0" prefHeight="32.0" prefWidth="32.0" style="-fx-background-color: F7FFE2;" textAlignment="CENTER" textFill="#141e0f" fx:id="x4y8">
+            <font>
+                <Font size="22.0" />
+            </font>
+        </Label>
+        <Label alignment="CENTER" layoutX="318.0" layoutY="90.0" prefHeight="32.0" prefWidth="32.0" style="-fx-background-color: F7FFE2;" textAlignment="CENTER" textFill="#141e0f" fx:id="x4y7">
+            <font>
+                <Font size="22.0" />
+            </font>
+        </Label>
+        <Label alignment="CENTER" layoutX="318.0" layoutY="122.0" prefHeight="32.0" prefWidth="32.0" style="-fx-background-color: F7FFE2;" textAlignment="CENTER" textFill="#141e0f" fx:id="x4y6">
+            <font>
+                <Font size="22.0" />
+            </font>
+        </Label>
+        <Label alignment="CENTER" layoutX="318.0" layoutY="154.0" prefHeight="32.0" prefWidth="32.0" style="-fx-background-color: F7FFE2;" textAlignment="CENTER" textFill="#141e0f" fx:id="x4y5">
+            <font>
+                <Font size="22.0" />
+            </font>
+        </Label>
+        <Label alignment="CENTER" layoutX="318.0" layoutY="186.0" prefHeight="32.0" prefWidth="32.0" style="-fx-background-color: F7FFE2;" textAlignment="CENTER" textFill="#141e0f" fx:id="x4y4">
+            <font>
+                <Font size="22.0" />
+            </font>
+        </Label>
+        <Label alignment="CENTER" layoutX="318.0" layoutY="218.0" prefHeight="32.0" prefWidth="32.0" style="-fx-background-color: F7FFE2;" textAlignment="CENTER" textFill="#141e0f" fx:id="x4y3">
+            <font>
+                <Font size="22.0" />
+            </font>
+        </Label>
+        <Label alignment="CENTER" layoutX="318.0" layoutY="250.0" prefHeight="32.0" prefWidth="32.0" style="-fx-background-color: F7FFE2;" textAlignment="CENTER" textFill="#141e0f" fx:id="x4y2">
+            <font>
+                <Font size="22.0" />
+            </font>
+        </Label>
+        <Label alignment="CENTER" layoutX="318.0" layoutY="282.0" prefHeight="32.0" prefWidth="32.0" style="-fx-background-color: F7FFE2;" textAlignment="CENTER" textFill="#141e0f" fx:id="x4y1">
+            <font>
+                <Font size="22.0" />
+            </font>
+        </Label>
+        <Label alignment="CENTER" layoutX="350.0" layoutY="26.0" prefHeight="32.0" prefWidth="32.0" style="-fx-background-color: F7FFE2;" textAlignment="CENTER" textFill="#141e0f" fx:id="x5y9">
+            <font>
+                <Font size="22.0" />
+            </font>
+        </Label>
+        <Label alignment="CENTER" layoutX="350.0" layoutY="58.0" prefHeight="32.0" prefWidth="32.0" style="-fx-background-color: F7FFE2;" textAlignment="CENTER" textFill="#141e0f" fx:id="x5y8">
+            <font>
+                <Font size="22.0" />
+            </font>
+        </Label>
+        <Label alignment="CENTER" layoutX="350.0" layoutY="90.0" prefHeight="32.0" prefWidth="32.0" style="-fx-background-color: F7FFE2;" textAlignment="CENTER" textFill="#141e0f" fx:id="x5y7">
+            <font>
+                <Font size="22.0" />
+            </font>
+        </Label>
+        <Label alignment="CENTER" layoutX="350.0" layoutY="122.0" prefHeight="32.0" prefWidth="32.0" style="-fx-background-color: F7FFE2;" textAlignment="CENTER" textFill="#141e0f" fx:id="x5y6">
+            <font>
+                <Font size="22.0" />
+            </font>
+        </Label>
+        <Label alignment="CENTER" layoutX="350.0" layoutY="154.0" prefHeight="32.0" prefWidth="32.0" style="-fx-background-color: F7FFE2;" textAlignment="CENTER" textFill="#141e0f" fx:id="x5y5">
+            <font>
+                <Font size="22.0" />
+            </font>
+        </Label>
+        <Label alignment="CENTER" layoutX="350.0" layoutY="186.0" prefHeight="32.0" prefWidth="32.0" style="-fx-background-color: F7FFE2;" textAlignment="CENTER" textFill="#141e0f" fx:id="x5y4">
+            <font>
+                <Font size="22.0" />
+            </font>
+        </Label>
+        <Label alignment="CENTER" layoutX="350.0" layoutY="218.0" prefHeight="32.0" prefWidth="32.0" style="-fx-background-color: F7FFE2;" textAlignment="CENTER" textFill="#141e0f" fx:id="x5y3">
+            <font>
+                <Font size="22.0" />
+            </font>
+        </Label>
+        <Label alignment="CENTER" layoutX="350.0" layoutY="250.0" prefHeight="32.0" prefWidth="32.0" style="-fx-background-color: F7FFE2;" textAlignment="CENTER" textFill="#141e0f" fx:id="x5y2">
+            <font>
+                <Font size="22.0" />
+            </font>
+        </Label>
+        <Label alignment="CENTER" layoutX="350.0" layoutY="282.0" prefHeight="32.0" prefWidth="32.0" style="-fx-background-color: F7FFE2;" textAlignment="CENTER" textFill="#141e0f" fx:id="x5y1">
+            <font>
+                <Font size="22.0" />
+            </font>
+        </Label>
+        <Label alignment="CENTER" layoutX="382.0" layoutY="26.0" prefHeight="32.0" prefWidth="32.0" style="-fx-background-color: F7FFE2;" textAlignment="CENTER" textFill="#141e0f" fx:id="x6y9">
+            <font>
+                <Font size="22.0" />
+            </font>
+        </Label>
+        <Label alignment="CENTER" layoutX="382.0" layoutY="58.0" prefHeight="32.0" prefWidth="32.0" style="-fx-background-color: F7FFE2;" textAlignment="CENTER" textFill="#141e0f" fx:id="x6y8">
+            <font>
+                <Font size="22.0" />
+            </font>
+        </Label>
+        <Label alignment="CENTER" layoutX="382.0" layoutY="90.0" prefHeight="32.0" prefWidth="32.0" style="-fx-background-color: F7FFE2;" textAlignment="CENTER" textFill="#141e0f" fx:id="x6y7">
+            <font>
+                <Font size="22.0" />
+            </font>
+        </Label>
+        <Label alignment="CENTER" layoutX="382.0" layoutY="122.0" prefHeight="32.0" prefWidth="32.0" style="-fx-background-color: F7FFE2;" textAlignment="CENTER" textFill="#141e0f" fx:id="x6y6">
+            <font>
+                <Font size="22.0" />
+            </font>
+        </Label>
+        <Label alignment="CENTER" layoutX="382.0" layoutY="154.0" prefHeight="32.0" prefWidth="32.0" style="-fx-background-color: F7FFE2;" textAlignment="CENTER" textFill="#141e0f" fx:id="x6y5">
+            <font>
+                <Font size="22.0" />
+            </font>
+        </Label>
+        <Label alignment="CENTER" layoutX="382.0" layoutY="186.0" prefHeight="32.0" prefWidth="32.0" style="-fx-background-color: F7FFE2;" textAlignment="CENTER" textFill="#141e0f" fx:id="x6y4">
+            <font>
+                <Font size="22.0" />
+            </font>
+        </Label>
+        <Label alignment="CENTER" layoutX="382.0" layoutY="218.0" prefHeight="32.0" prefWidth="32.0" style="-fx-background-color: F7FFE2;" textAlignment="CENTER" textFill="#141e0f" fx:id="x6y3">
+            <font>
+                <Font size="22.0" />
+            </font>
+        </Label>
+        <Label alignment="CENTER" layoutX="382.0" layoutY="250.0" prefHeight="32.0" prefWidth="32.0" style="-fx-background-color: F7FFE2;" textAlignment="CENTER" textFill="#141e0f" fx:id="x6y2">
+            <font>
+                <Font size="22.0" />
+            </font>
+        </Label>
+        <Label alignment="CENTER" layoutX="382.0" layoutY="282.0" prefHeight="32.0" prefWidth="32.0" style="-fx-background-color: F7FFE2;" textAlignment="CENTER" textFill="#141e0f" fx:id="x6y1">
+            <font>
+                <Font size="22.0" />
+            </font>
+        </Label>
+        <Label alignment="CENTER" layoutX="414.0" layoutY="26.0" prefHeight="32.0" prefWidth="32.0" style="-fx-background-color: F7FFE2;" textAlignment="CENTER" textFill="#141e0f" fx:id="x7y9">
+            <font>
+                <Font size="22.0" />
+            </font>
+        </Label>
+        <Label alignment="CENTER" layoutX="414.0" layoutY="58.0" prefHeight="32.0" prefWidth="32.0" style="-fx-background-color: F7FFE2;" textAlignment="CENTER" textFill="#141e0f" fx:id="x7y8">
+            <font>
+                <Font size="22.0" />
+            </font>
+        </Label>
+        <Label alignment="CENTER" layoutX="414.0" layoutY="90.0" prefHeight="32.0" prefWidth="32.0" style="-fx-background-color: F7FFE2;" textAlignment="CENTER" textFill="#141e0f" fx:id="x7y7">
+            <font>
+                <Font size="22.0" />
+            </font>
+        </Label>
+        <Label alignment="CENTER" layoutX="414.0" layoutY="122.0" prefHeight="32.0" prefWidth="32.0" style="-fx-background-color: F7FFE2;" textAlignment="CENTER" textFill="#141e0f" fx:id="x7y6">
+            <font>
+                <Font size="22.0" />
+            </font>
+        </Label>
+        <Label alignment="CENTER" layoutX="414.0" layoutY="154.0" prefHeight="32.0" prefWidth="32.0" style="-fx-background-color: F7FFE2;" textAlignment="CENTER" textFill="#141e0f" fx:id="x7y5">
+            <font>
+                <Font size="22.0" />
+            </font>
+        </Label>
+        <Label alignment="CENTER" layoutX="414.0" layoutY="186.0" prefHeight="32.0" prefWidth="32.0" style="-fx-background-color: F7FFE2;" textAlignment="CENTER" textFill="#141e0f" fx:id="x7y4">
+            <font>
+                <Font size="22.0" />
+            </font>
+        </Label>
+        <Label alignment="CENTER" layoutX="414.0" layoutY="218.0" prefHeight="32.0" prefWidth="32.0" style="-fx-background-color: F7FFE2;" textAlignment="CENTER" textFill="#141e0f" fx:id="x7y3">
+            <font>
+                <Font size="22.0" />
+            </font>
+        </Label>
+        <Label alignment="CENTER" layoutX="414.0" layoutY="250.0" prefHeight="32.0" prefWidth="32.0" style="-fx-background-color: F7FFE2;" textAlignment="CENTER" textFill="#141e0f" fx:id="x7y2">
+            <font>
+                <Font size="22.0" />
+            </font>
+        </Label>
+        <Label alignment="CENTER" layoutX="414.0" layoutY="282.0" prefHeight="32.0" prefWidth="32.0" style="-fx-background-color: F7FFE2;" textAlignment="CENTER" textFill="#141e0f" fx:id="x7y1">
+            <font>
+                <Font size="22.0" />
+            </font>
+        </Label>
+        <Label alignment="CENTER" layoutX="446.0" layoutY="26.0" prefHeight="32.0" prefWidth="32.0" style="-fx-background-color: F7FFE2;" textAlignment="CENTER" textFill="#141e0f" fx:id="x8y9">
+            <font>
+                <Font size="22.0" />
+            </font>
+        </Label>
+        <Label alignment="CENTER" layoutX="446.0" layoutY="58.0" prefHeight="32.0" prefWidth="32.0" style="-fx-background-color: F7FFE2;" textAlignment="CENTER" textFill="#141e0f" fx:id="x8y8">
+            <font>
+                <Font size="22.0" />
+            </font>
+        </Label>
+        <Label alignment="CENTER" layoutX="446.0" layoutY="90.0" prefHeight="32.0" prefWidth="32.0" style="-fx-background-color: F7FFE2;" textAlignment="CENTER" textFill="#141e0f" fx:id="x8y7">
+            <font>
+                <Font size="22.0" />
+            </font>
+        </Label>
+        <Label alignment="CENTER" layoutX="446.0" layoutY="122.0" prefHeight="32.0" prefWidth="32.0" style="-fx-background-color: F7FFE2;" textAlignment="CENTER" textFill="#141e0f" fx:id="x8y6">
+            <font>
+                <Font size="22.0" />
+            </font>
+        </Label>
+        <Label alignment="CENTER" layoutX="446.0" layoutY="154.0" prefHeight="32.0" prefWidth="32.0" style="-fx-background-color: F7FFE2;" textAlignment="CENTER" textFill="#141e0f" fx:id="x8y5">
+            <font>
+                <Font size="22.0" />
+            </font>
+        </Label>
+        <Label alignment="CENTER" layoutX="446.0" layoutY="186.0" prefHeight="32.0" prefWidth="32.0" style="-fx-background-color: F7FFE2;" textAlignment="CENTER" textFill="#141e0f" fx:id="x8y4">
+            <font>
+                <Font size="22.0" />
+            </font>
+        </Label>
+        <Label alignment="CENTER" layoutX="446.0" layoutY="218.0" prefHeight="32.0" prefWidth="32.0" style="-fx-background-color: F7FFE2;" textAlignment="CENTER" textFill="#141e0f" fx:id="x8y3">
+            <font>
+                <Font size="22.0" />
+            </font>
+        </Label>
+        <Label alignment="CENTER" layoutX="446.0" layoutY="250.0" prefHeight="32.0" prefWidth="32.0" style="-fx-background-color: F7FFE2;" textAlignment="CENTER" textFill="#141e0f" fx:id="x8y2">
+            <font>
+                <Font size="22.0" />
+            </font>
+        </Label>
+        <Label alignment="CENTER" layoutX="446.0" layoutY="282.0" prefHeight="32.0" prefWidth="32.0" style="-fx-background-color: F7FFE2;" textAlignment="CENTER" textFill="#141e0f" fx:id="x8y1">
+            <font>
+                <Font size="22.0" />
+            </font>
+        </Label>
+        <Label alignment="CENTER" layoutX="190.0" layoutY="314.0" prefHeight="32.0" prefWidth="32.0" style="-fx-background-color: F7FFE2;" textAlignment="CENTER" textFill="#141e0f" fx:id="x0y0">
+            <font>
+                <Font size="22.0" />
+            </font>
+        </Label>
+        <Label alignment="CENTER" layoutX="222.0" layoutY="314.0" prefHeight="32.0" prefWidth="32.0" style="-fx-background-color: F7FFE2;" textAlignment="CENTER" textFill="#141e0f" fx:id="x1y0">
+            <font>
+                <Font size="22.0" />
+            </font>
+        </Label>
+        <Label alignment="CENTER" layoutX="254.0" layoutY="314.0" prefHeight="32.0" prefWidth="32.0" style="-fx-background-color: F7FFE2;" textAlignment="CENTER" textFill="#141e0f" fx:id="x2y0">
+            <font>
+                <Font size="22.0" />
+            </font>
+        </Label>
+        <Label alignment="CENTER" layoutX="286.0" layoutY="314.0" prefHeight="32.0" prefWidth="32.0" style="-fx-background-color: F7FFE2;" textAlignment="CENTER" textFill="#141e0f" fx:id="x3y0">
+            <font>
+                <Font size="22.0" />
+            </font>
+        </Label>
+        <Label alignment="CENTER" layoutX="318.0" layoutY="314.0" prefHeight="32.0" prefWidth="32.0" style="-fx-background-color: F7FFE2;" textAlignment="CENTER" textFill="#141e0f" fx:id="x4y0">
+            <font>
+                <Font size="22.0" />
+            </font>
+        </Label>
+        <Label alignment="CENTER" layoutX="350.0" layoutY="314.0" prefHeight="32.0" prefWidth="32.0" style="-fx-background-color: F7FFE2;" textAlignment="CENTER" textFill="#141e0f" fx:id="x5y0">
+            <font>
+                <Font size="22.0" />
+            </font>
+        </Label>
+        <Label alignment="CENTER" layoutX="382.0" layoutY="314.0" prefHeight="32.0" prefWidth="32.0" style="-fx-background-color: F7FFE2;" textAlignment="CENTER" textFill="#141e0f" fx:id="x6y0">
+            <font>
+                <Font size="22.0" />
+            </font>
+        </Label>
+        <Label alignment="CENTER" layoutX="414.0" layoutY="314.0" prefHeight="32.0" prefWidth="32.0" style="-fx-background-color: F7FFE2;" textAlignment="CENTER" textFill="#141e0f" fx:id="x7y0">
+            <font>
+                <Font size="22.0" />
+            </font>
+        </Label>
+        <Label alignment="CENTER" layoutX="446.0" layoutY="314.0" prefHeight="32.0" prefWidth="32.0" style="-fx-background-color: F7FFE2;" textAlignment="CENTER" textFill="#141e0f" fx:id="x8y0">
+            <font>
+                <Font size="22.0" />
+            </font>
+        </Label>
+        <Label alignment="CENTER" layoutX="478.0" layoutY="26.0" prefHeight="32.0" prefWidth="32.0" style="-fx-background-color: F7FFE2;" textAlignment="CENTER" textFill="#141e0f" fx:id="x9y9">
+            <font>
+                <Font size="22.0" />
+            </font>
+        </Label>
+        <Label alignment="CENTER" layoutX="478.0" layoutY="58.0" prefHeight="32.0" prefWidth="32.0" style="-fx-background-color: F7FFE2;" textAlignment="CENTER" textFill="#141e0f" fx:id="x9y8">
+            <font>
+                <Font size="22.0" />
+            </font>
+        </Label>
+        <Label alignment="CENTER" layoutX="478.0" layoutY="90.0" prefHeight="32.0" prefWidth="32.0" style="-fx-background-color: F7FFE2;" textAlignment="CENTER" textFill="#141e0f" fx:id="x9y7">
+            <font>
+                <Font size="22.0" />
+            </font>
+        </Label>
+        <Label alignment="CENTER" layoutX="478.0" layoutY="122.0" prefHeight="32.0" prefWidth="32.0" style="-fx-background-color: F7FFE2;" textAlignment="CENTER" textFill="#141e0f" fx:id="x9y6">
+            <font>
+                <Font size="22.0" />
+            </font>
+        </Label>
+        <Label alignment="CENTER" layoutX="478.0" layoutY="154.0" prefHeight="32.0" prefWidth="32.0" style="-fx-background-color: F7FFE2;" textAlignment="CENTER" textFill="#141e0f" fx:id="x9y5">
+            <font>
+                <Font size="22.0" />
+            </font>
+        </Label>
+        <Label alignment="CENTER" layoutX="478.0" layoutY="186.0" prefHeight="32.0" prefWidth="32.0" style="-fx-background-color: F7FFE2;" textAlignment="CENTER" textFill="#141e0f" fx:id="x9y4">
+            <font>
+                <Font size="22.0" />
+            </font>
+        </Label>
+        <Label alignment="CENTER" layoutX="478.0" layoutY="218.0" prefHeight="32.0" prefWidth="32.0" style="-fx-background-color: F7FFE2;" textAlignment="CENTER" textFill="#141e0f" fx:id="x9y3">
+            <font>
+                <Font size="22.0" />
+            </font>
+        </Label>
+        <Label alignment="CENTER" layoutX="478.0" layoutY="250.0" prefHeight="32.0" prefWidth="32.0" style="-fx-background-color: F7FFE2;" textAlignment="CENTER" textFill="#141e0f" fx:id="x9y2">
+            <font>
+                <Font size="22.0" />
+            </font>
+        </Label>
+        <Label alignment="CENTER" layoutX="478.0" layoutY="282.0" prefHeight="32.0" prefWidth="32.0" style="-fx-background-color: F7FFE2;" textAlignment="CENTER" textFill="#141e0f" fx:id="x9y1">
+            <font>
+                <Font size="22.0" />
+            </font>
+        </Label>
+        <Label alignment="CENTER" layoutX="478.0" layoutY="314.0" prefHeight="32.0" prefWidth="32.0" style="-fx-background-color: F7FFE2;" textAlignment="CENTER" textFill="#141e0f" fx:id="x9y0">
+            <font>
+                <Font size="22.0" />
+            </font>
+        </Label>
+        <Button fx:id="Nastepny" layoutX="382.0" layoutY="361.0" mnemonicParsing="false" style="-fx-background-color: #7fa147; -fx-border-color: #ffffff;" text="Next step" textFill="WHITE">
+         <font>
+            <Font name="Century Gothic Bold" size="12.0" />
+         </font></Button>
+        <Label fx:id="warning" layoutX="17.0" layoutY="95.0" prefHeight="18.0" prefWidth="98.0" textFill="WHITE" />
+    </children>
+</AnchorPane>

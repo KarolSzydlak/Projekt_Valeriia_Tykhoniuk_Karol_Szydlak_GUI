@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="700.0" style="-fx-background-color: #2E5234;" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.project_with_gui.Controller_rules">
+    <children>
+      <ImageView fitHeight="471.0" fitWidth="700.0" layoutY="-2.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@1.jpg" />
+         </image>
+      </ImageView>
+        <Label layoutX="287.0" layoutY="35.0" prefHeight="70.0" prefWidth="126.0" text="Rules" textFill="WHITE">
+            <font>
+                <Font name="Century Gothic Bold" size="46.0" />
+            </font>
+        </Label>
+        <Button fx:id="Continue" layoutX="276.0" layoutY="287.0" mnemonicParsing="false" style="-fx-background-color: #7fa147;" text="Continue" textFill="WHITE">
+            <font>
+                <Font name="Century Gothic Bold" size="25.0" />
+            </font>
+        </Button>
+      <Label layoutX="109.0" layoutY="125.0" prefHeight="46.0" prefWidth="481.0" text="1. If anteaters  are defeated, then ants win" textFill="WHITE">
+         <font>
+            <Font name="Century Gothic" size="23.0" />
+         </font>
+      </Label>
+      <Label layoutX="147.0" layoutY="171.0" prefHeight="46.0" prefWidth="406.0" text="2. If  ants take all resources, ants win" textFill="WHITE">
+         <font>
+            <Font name="Century Gothic" size="23.0" />
+         </font>
+      </Label>
+      <Label layoutX="138.0" layoutY="218.0" prefHeight="46.0" prefWidth="422.0" text="3. If  ants are defeated, anteaters win" textFill="WHITE">
+         <font>
+            <Font name="Century Gothic" size="23.0" />
+         </font>
+      </Label>
+    </children>
+</AnchorPane>
